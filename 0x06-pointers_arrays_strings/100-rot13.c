@@ -16,9 +16,12 @@ char *rot13(char *s)
 	{
 		for (j = 0; j < 52; j++)
 		{
-			s[1] = datarot[j];
-			break;
+			if (s[i] == data1[j])
+			{
+				s[i] = datarot[j];
+				break;
+			}
 		}
 	}
-return (s);
+	return (s);
 }
