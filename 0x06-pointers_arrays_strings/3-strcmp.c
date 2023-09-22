@@ -5,7 +5,7 @@
  * @s2: 2nd parametter
  * Return: returns int
  */
-int strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 
